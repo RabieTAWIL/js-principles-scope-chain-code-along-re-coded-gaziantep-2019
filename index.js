@@ -25,4 +25,5 @@ const favoriteCustomer = 'bob';
 
 function attemptTwoFavoriteCustomers(){
   let favoriteCustomer = 'not bob';
+  return(Error);
 }
