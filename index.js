@@ -25,5 +25,5 @@ let favoriteCustomer = 'bob';
 function attemptTwoFavoriteCustomers(){
   
   let favoriteCustomer = 'not bob';
-  throw SyntaxError
+  throw SyntaxError(SyntaxError)
 }
