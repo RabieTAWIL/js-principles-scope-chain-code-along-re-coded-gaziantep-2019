@@ -21,9 +21,9 @@ const leastFavoriteCustomer = 'bob';
 function changeLeastFavoriteCustomer(){
   leastFavoriteCustomer = 'not bob';
 }
-let favoriteCustomer = 'bob';
+
 function attemptTwoFavoriteCustomers(){
-  
+  let favoriteCustomer = 'bob';
   let favoriteCustomer = 'not bob';
   throw SyntaxError(SyntaxError)
 }
